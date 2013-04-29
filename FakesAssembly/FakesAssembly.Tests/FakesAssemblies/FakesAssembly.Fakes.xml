@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FakesAssembly.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FakesAssembly.Fakes.ShimAuthor">
+            <summary>Shim type of FakesAssembly.Author</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimAuthor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimAuthor.#ctor(FakesAssembly.Author)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimAuthor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimAuthor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.Constructor">
+            <summary>Sets the shim of Author.Author()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.FirstNameGet">
+            <summary>Sets the shim of Author.get_FirstName()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.FirstNameSetString">
+            <summary>Sets the shim of Author.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.IdGet">
+            <summary>Sets the shim of Author.get_Id()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.IdSetInt32">
+            <summary>Sets the shim of Author.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.LastNameGet">
+            <summary>Sets the shim of Author.get_LastName()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.LastNameSetString">
+            <summary>Sets the shim of Author.set_LastName(String value)</summary>
+        </member>
+        <member name="T:FakesAssembly.Fakes.ShimAuthor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.AllInstances.FirstNameGet">
+            <summary>Sets the shim of Author.get_FirstName()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.AllInstances.FirstNameSetString">
+            <summary>Sets the shim of Author.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.AllInstances.IdGet">
+            <summary>Sets the shim of Author.get_Id()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Author.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.AllInstances.LastNameGet">
+            <summary>Sets the shim of Author.get_LastName()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimAuthor.AllInstances.LastNameSetString">
+            <summary>Sets the shim of Author.set_LastName(String value)</summary>
+        </member>
+        <member name="T:FakesAssembly.Fakes.ShimBook">
+            <summary>Shim type of FakesAssembly.Book</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimBook.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimBook.#ctor(FakesAssembly.Book)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimBook.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimBook.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.AuthorGet">
+            <summary>Sets the shim of Book.get_Author()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.AuthorSetAuthor">
+            <summary>Sets the shim of Book.set_Author(Author value)</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.Constructor">
+            <summary>Sets the shim of Book.Book()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.IdGet">
+            <summary>Sets the shim of Book.get_Id()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.IdSetInt32">
+            <summary>Sets the shim of Book.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.TitleGet">
+            <summary>Sets the shim of Book.get_Title()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.TitleSetString">
+            <summary>Sets the shim of Book.set_Title(String value)</summary>
+        </member>
+        <member name="T:FakesAssembly.Fakes.ShimBook.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.AllInstances.AuthorGet">
+            <summary>Sets the shim of Book.get_Author()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.AllInstances.AuthorSetAuthor">
+            <summary>Sets the shim of Book.set_Author(Author value)</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.AllInstances.IdGet">
+            <summary>Sets the shim of Book.get_Id()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Book.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.AllInstances.TitleGet">
+            <summary>Sets the shim of Book.get_Title()</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBook.AllInstances.TitleSetString">
+            <summary>Sets the shim of Book.set_Title(String value)</summary>
+        </member>
+        <member name="T:FakesAssembly.Fakes.ShimBookStoreManager">
+            <summary>Shim type of FakesAssembly.BookStoreManager</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimBookStoreManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimBookStoreManager.#ctor(FakesAssembly.BookStoreManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimBookStoreManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.ShimBookStoreManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBookStoreManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBookStoreManager.ConstructorIBookStoreRepository">
+            <summary>Sets the shim of BookStoreManager.BookStoreManager(IBookStoreRepository bookStoreRepository)</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBookStoreManager.GetBookInt32">
+            <summary>Sets the shim of BookStoreManager.GetBook(Int32 bookId)</summary>
+        </member>
+        <member name="T:FakesAssembly.Fakes.ShimBookStoreManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.ShimBookStoreManager.AllInstances.GetBookInt32">
+            <summary>Sets the shim of BookStoreManager.GetBook(Int32 bookId)</summary>
+        </member>
+        <member name="T:FakesAssembly.Fakes.StubAuthor">
+            <summary>Stub type of FakesAssembly.Author</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubAuthor.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubAuthor.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthor</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.StubAuthor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.StubAuthor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.StubAuthor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FakesAssembly.Fakes.StubBook">
+            <summary>Stub type of FakesAssembly.Book</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubBook.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubBook.InitializeStub">
+            <summary>Initializes a new instance of type StubBook</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.StubBook.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.StubBook.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.StubBook.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FakesAssembly.Fakes.StubBookStoreManager">
+            <summary>Stub type of FakesAssembly.BookStoreManager</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubBookStoreManager.#ctor(FakesAssembly.IBookStoreRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubBookStoreManager.InitializeStub">
+            <summary>Initializes a new instance of type StubBookStoreManager</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.StubBookStoreManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.StubBookStoreManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FakesAssembly.Fakes.StubBookStoreManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FakesAssembly.Fakes.StubIBookStoreRepository">
+            <summary>Stub type of FakesAssembly.IBookStoreRepository</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubIBookStoreRepository.#ctor">
+            <summary>Initializes a new instance of type StubIBookStoreRepository</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubIBookStoreRepository.fa::FakesAssembly#IBookStoreRepository#GetAuthor(System.Int32)">
+            <summary>Sets the stub of IBookStoreRepository.GetAuthor(Int32 id)</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubIBookStoreRepository.fa::FakesAssembly#IBookStoreRepository#GetBook(System.Int32)">
+            <summary>Sets the stub of IBookStoreRepository.GetBook(Int32 id)</summary>
+        </member>
+        <member name="M:FakesAssembly.Fakes.StubIBookStoreRepository.fa::FakesAssembly#IBookStoreRepository#GetBooksOfAuthor(FakesAssembly.Author)">
+            <summary>Sets the stub of IBookStoreRepository.GetBooksOfAuthor(Author author)</summary>
+        </member>
+        <member name="F:FakesAssembly.Fakes.StubIBookStoreRepository.GetAuthorInt32">
+            <summary>Sets the stub of IBookStoreRepository.GetAuthor(Int32 id)</summary>
+        </member>
+        <member name="F:FakesAssembly.Fakes.StubIBookStoreRepository.GetBookInt32">
+            <summary>Sets the stub of IBookStoreRepository.GetBook(Int32 id)</summary>
+        </member>
+        <member name="F:FakesAssembly.Fakes.StubIBookStoreRepository.GetBooksOfAuthorAuthor">
+            <summary>Sets the stub of IBookStoreRepository.GetBooksOfAuthor(Author author)</summary>
+        </member>
+    </members>
+</doc>
